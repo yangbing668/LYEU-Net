@@ -196,7 +196,6 @@ if __name__ == '__main__':
     datasetPaths = ['AigleRN-TRIMM', 'GAPs384', 'Crack500', 'ShadowCrack', 'DeepCrack']  #
     datasetPaths = ['ShadowCrack']
     for path in datasetPaths:
-        # 对标Lightweight Yet Effective: A Modular Approach to Crack Segmentation
         parser = argparse.ArgumentParser()
         parser.add_argument("--path_images", type=str, default=f'Datasets/{path}/test',
                             help="Enter path to images folder.")
