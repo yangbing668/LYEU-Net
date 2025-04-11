@@ -179,10 +179,6 @@ if __name__ == "__main__":
                             help="Enter path to masks folder.")
         parser.add_argument("--out_path", type=str, default='output1', help="Output path, model saving path.")
         args = parser.parse_args()
-        # 0.7173 0.7873 0.7307 Crack500
-        # 0.6859 0.7235 0.6933 AigleRN-TRIMM
-        # 0.8439 0.8840 0.8451 DeepCrack
-        # 0.5793 0.5724 0.5447 GAPs384
         train_image_path = args.train_path_images
         train_masks_path = args.train_path_masks
         val_image_path = args.val_path_images
